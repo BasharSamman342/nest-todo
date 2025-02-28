@@ -1,9 +1,8 @@
 import { Module } from '@nestjs/common';
 import { SupabaseService } from './supabase.service';
-import { SuparbaseController } from './supabase.controller';
 
 @Module({
-  controllers: [SuparbaseController],
+  controllers: [],
   providers: [SupabaseService],
   exports: [SupabaseService]
 })
